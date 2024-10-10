@@ -5,12 +5,12 @@
     overflow: hidden; /* Hide overflow */
     border: 5px solid #00d1ff; /* Blue outline */
     margin-bottom: 20px; /* Space below the image */
-    z-index: 2; /* Ensure it is above other content */
+    z-index: 1; /* Ensure it is above other content */
     position: relative; /* Positioning context */
 }
 
 .header .profile-pic img {
     width: 100%; /* Make image fit the container */
-    height: auto; /* Maintain aspect ratio */
+    height: 100%; /* Maintain aspect ratio */
     display: block; /* Remove bottom space/gap */
 }
