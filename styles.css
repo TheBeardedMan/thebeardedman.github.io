@@ -1,16 +1,5 @@
-.header .profile-pic {
-    width: 150px; /* Set size of the circle */
-    height: 150px; /* Set size of the circle */
-    border-radius: 50%; /* Make it circular */
-    overflow: hidden; /* Hide overflow */
-    border: 5px solid #00d1ff; /* Blue outline */
-    margin-bottom: 20px; /* Space below the image */
-    z-index: 1; /* Ensure it is above other content */
-    position: relative; /* Positioning context */
-}
-
 .header .profile-pic img {
-    width: 100%; /* Make image fit the container */
-    height: 100%; /* Maintain aspect ratio */
-    display: block; /* Remove bottom space/gap */
+    width: 100%;
+    height: auto;
+    display: block;
 }
